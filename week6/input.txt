@@ -1,0 +1,12 @@
+here is some simple text
+which has some numbers in it:
+the time is 10 o-clock.
+I am 23 years old.
+The year is 2016.
+Today's date is 9/27/2016
+This is the 9th month of the year.
+We are in the 6th week of the class.
+A year has 365.25 days in it.
+My local phone number is 987-6543.
+With area code it is: 435-123-4567.
+1,234,567

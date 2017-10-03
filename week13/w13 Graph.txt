@@ -1,0 +1,24 @@
+﻿Week 13:
+
+1. Create a 5 second audio clip in Audacity.
+2. Pick any 5 second video you have posted and add the sound.
+
+Essential Notes for this-
+
+How to add sound
+Workflow;
+1. Create your sound clips in Audacity. Use a decent lossless codec like ogg or flac.
+
+2. Soundclip should be the same duration as the video (concatinate in Audacity).
+
+3. The command in ffmpeg example:
+
+ffmpeg -r 25 -i video.mpg-r 25 -i audio.flac -sameq scene01.mpg
+
+so the sample rate for audio is based on the base? Look this up.
+
+4. If you prefer making one scene at a time, you can concatenate scenes this way in linux:
+
+Use linux concat to put movie clips together.. file1 file2 > file3
+
+cat scene01.dvd scene02.dvd scene03.dvd > combined.dvd

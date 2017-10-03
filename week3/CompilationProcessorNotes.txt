@@ -1,0 +1,16 @@
+Comilation model C uses:
+
+Preprocessor:
+	Removes comments
+	Interprets Preprocessor directives: #
+	
+Compiler:
+	Source code is converted to assembly language
+	
+Assembly:
+	Assembly language to machine code
+	
+Linker:
+	Links any libraries or functions defined in other files.
+
+... we can write our own header files??!  (i.e. #include <stdlib.h>)

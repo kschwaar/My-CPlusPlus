@@ -1,0 +1,33 @@
+flex: patter recognizers
+regular expressions:
+. any character
+* zero or more of previous expressions
+[] character ex. [abc] means a or b or c.
+^ must be at the beginning of a line.
+[^abc] means anything EXCEPT a or be or c.
+$ pattern must be at the end of a line.
++ means one or more copies
+? zero or more.
+| means OR.
+Ranges: [0-9] will include all digits from 0-9.
+notation for repeats: {n} for n repeats. 
+you can tell the compiler where to find libraries that aren't on its PATH.
+use -L to tell it which folder
+Use -l to indicate the actual library. -lfl means use libfl.a
+The lex specification: 3 sections!
+1. Definitions section: sets up any declarations or includes your c code will use.
+%{ .... %}
+2. Rules section: give a patter in regular expressions then give the c code for dealing with the pattern.
+3. Subroutine section:
+pointers that are good for input and output files. yyin: pointer to input file. yyout: pointer to an output file.
+yyleng: length of the patter it sees;
+yytext: pattern detected.
+commands to compile 
+flex "filename.l"
+gcc lex.yy.c -o "desiredname" -L/lib -lfl
+./desiredname "input"
+cat "file.txt" will print out the file to the cmd line.
+NOTES FOR C++
+We've already been writting c++ but didn't know it. Hooray!
+to compile c++
+g++ "file.cpp"

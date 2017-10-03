@@ -1,0 +1,26 @@
+//Overloading Operators
+//In Java, suppose we want to add two ratios:
+//Member function: Ratio add(Ratio r){};
+//Static function: public static Ratio add (Ratio a, Ratio b){};
+
+//A and B might be matrices.  We don't want to call methods, just want to A+B;
+
+C++ has a huge number of operators.  SEE TEXT BOOK!!!  (the one day that I don't bring the book to class....)
+You can overload virtually all of them.
+
+ex. 
+-> member selecction operators
+[] subscript operators
+() function call
+++ increment
+-- decrement
+~ bitwise complement
+! logical not
++,-,*,/,%
+==, <, etc.
+AND MANY MORE!!!  ...damn.
+
+
+
+
+FINAL PROJECT!!!  Use lists to build a program capable of doing polynomial arithmetic.
